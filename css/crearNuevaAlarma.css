@@ -4,7 +4,7 @@
 }
 .crearNuevaAlarma form{
     color: rgb(67, 67, 68);
-    background-color: rgb(222, 222, 238);
+    background-color: rgb(236, 236, 243);
     border: 3px double rgb(67, 67, 68);
     width: 50vw;
     text-align: center;
@@ -15,7 +15,8 @@
     transition: 0.5s;
 }
 .crearNuevaAlarma form:hover{
-    background-color: rgb(209, 209, 236);
+    background-color: rgb(67, 67, 68);
+    color: rgb(255, 255, 255);
 
 }
 .crearNuevaAlarma form label,.crearNuevaAlarma form input, .crearNuevaAlarma form button{
@@ -26,7 +27,7 @@
     font-size: 20px;
 }
 .crearNuevaAlarma form input{
-    background-color: rgb(222, 222, 238);
+    background-color: rgb(244, 244, 252);
     height: 40px;
     margin-left: 20px;
     margin-right: 20px;
@@ -38,6 +39,10 @@
     background-color: rgb(204, 43, 43);
     color: rgb(255, 255, 255);
     cursor:pointer;
+    border: none;
+}
+.crearNuevaAlarma form button:hover{
+    background-color: rgb(228, 27, 27);
 
 }
 .crearNuevaAlarma form button:active{
