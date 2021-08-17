@@ -1,0 +1,33 @@
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(67, 67, 68);
+    text-align: center;
+}
+
+.alarmaActiva{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 10px;
+}
+.alarmaActiva p, .alarmaActiva button{
+    background-color: rgb(67, 67, 68);
+    border: rgb(240, 240, 252) 2px outset;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+.alarmaActiva .tituloAlarma{
+    width: 50vw;
+}
+.alarmaActiva .horaAlarma{
+    width: 80px;
+}
+.botonBorrarAlarma{
+    color: rgb(253, 84, 84);
+}

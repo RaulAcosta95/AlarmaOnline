@@ -1,0 +1,29 @@
+.contenedorBotonNuevaAlarma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorBotonNuevaAlarma button{
+    height: 60px;
+    width: 50vw;
+    font-size: 25px;
+    background-color: rgb(204, 43, 43);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-bottom: 30px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.contenedorBotonNuevaAlarma button:hover{
+    background-color: rgb(202, 29, 29);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(67, 67, 68,.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(67, 67, 68,.75);
+    box-shadow: 10px 10px 5px 0px rgba(67, 67, 68,.75);
+    transition: 0.5s;
+}
+@media (min-width: 0px) and (max-width: 425px){
+    .contenedorBotonNuevaAlarma button{
+        width: 270px;
+
+    }
+}

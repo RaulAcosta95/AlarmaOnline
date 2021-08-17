@@ -1,0 +1,37 @@
+.alarmaSonando{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+#alarmaSonando{
+    width: 270px;
+    height: 170px;
+    background-color: rgb(43, 43, 49);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+#alarmaSonando p{
+    width: 90%;
+    text-align: center;
+}
+#alarmaSonando .tituloAlarmaSonando{
+    font-size: 20px;
+    position: relative;
+    top:-40px
+}
+
+#alarmaSonando button{
+    height: 45px;
+    width: 65px;
+    cursor:pointer;
+}
+#alarmaSonando img{
+    width: 30px;
+    position:relative;
+    left: 110px;
+}

@@ -1,0 +1,52 @@
+.crearNuevaAlarma{
+    display: flex;
+    justify-content: center;
+}
+.crearNuevaAlarma form{
+    color: rgb(67, 67, 68);
+    background-color: rgb(222, 222, 238);
+    border: 3px double rgb(67, 67, 68);
+    width: 50vw;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.5s;
+}
+.crearNuevaAlarma form:hover{
+    background-color: rgb(209, 209, 236);
+
+}
+.crearNuevaAlarma form label,.crearNuevaAlarma form input, .crearNuevaAlarma form button{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+.crearNuevaAlarma form input{
+    background-color: rgb(222, 222, 238);
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.crearNuevaAlarma form button{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(204, 43, 43);
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+
+}
+.crearNuevaAlarma form button:active{
+    background-color: rgb(204, 43, 43);
+    border: none;
+
+}
+@media (min-width: 0px) and (max-width: 425px){
+    .crearNuevaAlarma form{
+        width: 270px;
+    }
+}

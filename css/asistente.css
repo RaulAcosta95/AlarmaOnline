@@ -1,0 +1,7 @@
+.contenedorAsistente{
+    display: flex;
+    justify-content: center;
+}
+.contenedorAsistente img{
+    width: 270px;
+}

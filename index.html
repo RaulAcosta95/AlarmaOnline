@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarma Online</title>
+        <!-- STYLES -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reloj.css">
+    <link rel="stylesheet" href="./css/asistente.css">
+    <link rel="stylesheet" href="./css/botonNuevaAlarma.css">
+    <link rel="stylesheet" href="./css/alarmasPendientes.css">
+    <link rel="stylesheet" href="./css/crearNuevaAlarma.css">
+    <link rel="stylesheet" href="./css/alarmaSonando.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+        <!-- SCRIPTS -->
+    <script src="./js/reloj.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Alarma Online</h1>
+    </header>
+    <section>
+        <article class="contenedorReloj">
+            <div class="cajaReloj">
+                <p id="reloj"></p>
+            </div>
+        </article>
+        <!-- <article class="contenedorAsistente">
+            <img src="./imagenes/mujer.png" alt="">
+        </article> -->
+        <article class="alarmaSonando">
+        </article>
+        <article class="contenedorBotonNuevaAlarma">
+            <button onclick="toggleCrearNuevaAlarma()">Nueva Alarma</button>
+        </article>
+        <article>
+            <div class="crearNuevaAlarma" id="crearNuevaAlarma"></div>
+        </article>
+        <hr>
+        <article class="">
+            <h3>Tus alarmas</h3>
+            <div class="alarmasActivas" id="alarmasActivas">
+            </div>
+
+        </article>
+
+    </section>
+
+    <script src="./js/toggleCrearNuevaAlarma.js"></script>
+    <script src="./js/alarmas.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 49);
+    
+}
+header h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
