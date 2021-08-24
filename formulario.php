@@ -1,16 +1,16 @@
 <?php 
 
-$destino = 'raulacostaservicio@hotmail.com';
+// $destino = 'raulacostaservicio@hotmail.com';
 
-$asunto = "ALARMA_ONLINE_MENSAJE";
-$mensaje = $_POST ['mensaje'];
-$email = $_POST ['email'];
+// $asunto = "ALARMA_ONLINE_MENSAJE";
+// $mensaje = $_POST ['mensaje'];
+// $email = $_POST ['email'];
 
-$header = "Mensaje desde Aplicación Alarma Online";
+// $header = "Mensaje desde Aplicación Alarma Online";
 
-mail($destino, $asunto, $mensaje, $header);
+// mail($destino, $asunto, $mensaje, $header);
 
-header("Location:index.html");
+// header("Location:index.html");
 
 // $to = "destinatario@email.com";
 // $subject = "Asunto del email";
@@ -28,8 +28,8 @@ header("Location:index.html");
 // </body>
 // </html>";
  
-mail($to, $subject, $message, $headers);
-echo '<p>Hola Mundo</p>';
+// mail($to, $subject, $message, $headers);
+// echo '<p>Hola Mundo</p>';
 // echo "
 // <script>
 //     alert('Mensaje Enviado');
