@@ -41,6 +41,11 @@
         <article class="contenedorBotonNuevaAlarma">
             <button onclick="toggleCrearNuevaAlarma()">Nueva Alarma</button>
         </article>
+        <article id="audioAlarmaMuestra">
+            <audio controls >
+                <source src="./sonidos/sonidoalarma.mp3" type="audio/ogg">
+            </audio>        
+        </article>
         <article>
             <div class="crearNuevaAlarma" id="crearNuevaAlarma"></div>
         </article>
@@ -53,8 +58,8 @@
         </article>
 
     </section>
-
     <script src="./js/toggleCrearNuevaAlarma.js"></script>
     <script src="./js/alarmas.js"></script>
+    <script src="./js/mensajesAlerta.js"></script>
 </body>
 </html>

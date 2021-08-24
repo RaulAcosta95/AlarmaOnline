@@ -9,3 +9,7 @@ body{
         color: rgb(241, 241, 241);
 
 }
+#audioAlarmaMuestra{
+    display: flex;
+    justify-content: center;
+}

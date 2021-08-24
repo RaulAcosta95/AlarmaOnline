@@ -82,7 +82,9 @@ function sonarAlarma(i){
         <img src="./imagenes/volume.svg" alt="Icono de sonido">
         <p class="tituloAlarmaSonando">${alarmasActivas[i].tituloAlarma}</p> <br>
         <p class="horaAlarmaSonando">${alarmasActivas[i].horaAlarma}</p>
-        <audio src="./sonidos/theRealKing.mp3" autoplay id="audioAlarma"></audio>
+        <audio autoplay id="audioAlarma" loop>
+            <source src="./sonidos/sonidoalarma.mp3" type="audio/ogg">
+        </audio>
         <button onclick="apagarAlarma()">OK</button>
     </div>
     `
@@ -91,3 +93,4 @@ function apagarAlarma(){
     let alarmaActiva = document.querySelector('.alarmaSonando');
     alarmaActiva.innerHTML="";
 }
+
