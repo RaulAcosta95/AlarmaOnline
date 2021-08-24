@@ -10,11 +10,14 @@ $header = 'Mensaje desde Aplicación Alarma Online';
 
 mail($destino, $asunto, $mensaje, $header);
 
-header("Location:index.html");
+// header("Location:index.html");
 echo "
 <script>
-    alert('Mensaje Enviado')
-</script>
+    alert('Mensaje Enviado');
+    console.log("???");
+
+</script>"
+echo "
 <script>
     setTimeout(\"location.href = 'index.html' \",1000);
     console.log("???");
