@@ -2,7 +2,7 @@ function toggleCrearNuevaAlarma(){
     let formNuevaAlarma = `              
     <form>
         <label for="tituloAlarma">Título:</label>
-        <input type="text" id="tituloAlarma" name="tituloAlarma" placeholder="Tu título">
+        <input type="text" id="tituloAlarma" name="tituloAlarma" placeholder="Título Alarma">
         <label for="horaAlarma">Hora:</label>
         <input type="time" id="horaAlarma" name="horaAlarma" placeholder="Hora">
         <button id="botonEnviar" type="button" onclick="agregaAlarma();imprimirAlarmas()">Enviar</button >

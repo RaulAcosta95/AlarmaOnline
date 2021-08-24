@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alarma Online</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./imagenes/alarma.ico">
+
         <!-- STYLES -->
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -35,13 +37,15 @@
                 <p id="reloj"></p>
             </div>
         </article>
-        <!-- <article class="contenedorAsistente">
-            <img src="./imagenes/mujer.png" alt="">
-        </article> -->
         <article class="alarmaSonando">
         </article>
         <article class="contenedorBotonNuevaAlarma">
             <button onclick="toggleCrearNuevaAlarma()">Nueva Alarma</button>
+        </article>
+        <article id="audioAlarmaMuestra">
+            <audio controls preload="auto">
+                <source src="./sonidos/sonidoalarma.mp3" type="audio/ogg">
+            </audio>        
         </article>
         <article>
             <div class="crearNuevaAlarma" id="crearNuevaAlarma"></div>
@@ -55,20 +59,11 @@
         </article>
 
     </section>
-    <!-- <section>
-        <form id="mensajeForm" action="formulario.php" method="POST">
-            <label for="email">Email</label>
-            <input type="email" name="email" required placeholder="Tu Email">
-            <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" required placeholder="Tu Mensaje"></textarea>
-            <button id="submitMensajeForm" type="submit">Enviar</button>
-        </form>
-    </section> -->
+
 
     <!-- SCRIPTS -->
     <script src="./js/reloj.js"></script>
     <script src="./js/toggleCrearNuevaAlarma.js"></script>
     <script src="./js/alarmas.js"></script>
-    <!-- <script src="./js/formulario.js"></script> -->
 </body>
 </html>

@@ -1,6 +1,7 @@
 .crearNuevaAlarma{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .crearNuevaAlarma form{
     color: rgb(67, 67, 68);
