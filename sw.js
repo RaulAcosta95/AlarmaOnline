@@ -1,10 +1,25 @@
-const STATIC_CACHE_NAME = 'site-static-v1';
-const DYNAMIC_CACHE_NAME = 'site-dynamic-v1';
+const STATIC_CACHE_NAME = 'site-static-v2';
+const DYNAMIC_CACHE_NAME = 'site-dynamic-v2';
 const ASSETS = [//Los ASSETS son archivos en ruta para pre-cargar
     '/',
     '/index.html',
     '/manifest.json',
     '/js/app.js',
+    '/css/global.css',
+    '/css/header.css',
+    '/css/reloj.css',
+    '/css/asistente.css',
+    '/css/botonNuevaAlarma.css',
+    '/css/alarmasPendientes.css',
+    '/css/crearNuevaAlarma.css',
+    '/css/alarmaSonando.css',
+    '/js/reloj.js',
+    '/js/toggleCrearNuevaAlarma.js',
+    '/js/alarmas.js',
+    '/js/mensajesAlerta.js',
+    '/imagenes/alarma.ico',
+    '/imagenes/icons/icon-144x144.png',
+    '/sonidos/sonidoalarma.mp3'
 
 ]
 
