@@ -19,7 +19,8 @@ const ASSETS = [//Los ASSETS son archivos en ruta para pre-cargar
     '/js/mensajesAlerta.js',
     '/imagenes/alarma.ico',
     '/imagenes/icons/icon-144x144.png',
-    '/sonidos/sonidoalarma.mp3'
+    '/sonidos/sonidoalarma.mp3',
+    '/imagenes/volume.svg'
 
 ]
 
