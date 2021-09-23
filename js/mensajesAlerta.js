@@ -16,9 +16,9 @@ function mensajesAlerta(id){
             break;
         case 8:alert('¡Hoy es un día estupendo!');
             break;
-        case 9:alert('¡Gracias por usar Alarma Online!');
+        case 9:alert('¡Instala esta aplicación en tu dispositivo!');
             break;
-        case 10:alert('¡Ten siempre tu Alarma Online a la mano!');
+        case 10:alert('¡Puedes instalar esta aplicación!');
             break;
         default:
             break;

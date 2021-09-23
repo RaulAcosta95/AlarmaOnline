@@ -1,5 +1,6 @@
 let alarmasActivas = [];
-
+console.log(window.innerWidth);
+console.log(window.outerWidth);
 // localStorage.clear();//AQUI
 
 if (localStorage.getItem('alarmasLocalStorage') != null) {

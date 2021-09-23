@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-    content="Aplicación de alarma y reloj para el navegador">
+    content="Aplicación de alarma y reloj para el navegador y progresive web App">
     <meta name="keywords"
     content="HTML, JS, CSS,alarma,alarma Online,despertador,wake up,awake,reloj,reloj online,contról,control,alarmas,alarmas online,despertar,nueva alarma,funcionalidades,aplicación,navegador,aplicación para el navegador,mensajes,mensaje,contról diario,despertarse,alarma para despertar,alarma para despertarse,reloj online para despertarse,contról de tiempo,tiempo,contról de tiempo para despertarse,aplicación de reloj,aplicación de alarma,aplicación para despertarse,tareas,aplicación para tareas,aplicación para contról de tiempo,sonidos,sonidos para despertarse,trabajo free lance,free lance,every pixel,raúl acosta">
     <title>Alarma Online</title>
     <link rel="shortcut icon" type="image/x-icon" href="./imagenes/alarma.ico">
+    <meta name="theme-color" content="#aa7700">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./imagenes/icons/icon-96x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+ 
 
         <!-- STYLES -->
     <link rel="stylesheet" href="./css/global.css">
@@ -56,7 +61,7 @@
         </article>
         <hr>
         <article class="">
-            <h3>Tus alarmas</h3>
+            <h2>Tus alarmas</h2>
             <div class="alarmasActivas" id="alarmasActivas">
             </div>
 
@@ -69,5 +74,7 @@
     <script src="./js/reloj.js"></script>
     <script src="./js/toggleCrearNuevaAlarma.js"></script>
     <script src="./js/alarmas.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/mensajesAlerta.js"></script>
 </body>
 </html>
